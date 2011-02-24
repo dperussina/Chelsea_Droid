@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ti:app xmlns:ti="http://ti.appcelerator.org">
+<id>com.svs.chelseahandler</id>
+<name>Chelsea</name>
+<version>2.0</version>
+<publisher>randy</publisher>
+<url>http://celebrityapps.com</url>
+<description>No description provided</description>
+<copyright>2011 by randy</copyright>
+<icon>appicon.png</icon>
+<persistent-wifi>false</persistent-wifi>
+<prerendered-icon>true</prerendered-icon>
+<statusbar-style>default</statusbar-style>
+<statusbar-hidden>false</statusbar-hidden>
+<fullscreen>true</fullscreen>
+<navbar-hidden>false</navbar-hidden>
+<analytics>true</analytics>
+<guid>67bf358a-c3ab-4b9e-9f55-106561e5d40f</guid>
+<property name="ti.facebook.appid">133794879997011</property>
+</ti:app>

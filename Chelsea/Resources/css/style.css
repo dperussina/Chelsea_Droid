@@ -1,0 +1,877 @@
+/*
+Theme Name: Jalen Rose
+Theme URI: http://jalenrose.com
+Description: Theme created for Jalen Rose by Vaynermedia
+Version: 1.0
+Author: Neil Sarkar & Sameer Tanakia
+Author URI: http://vaynermedia.com
+*/
+
+* { margin: 0; padding: 0; }
+
+.ghost { display: none !important; }
+a, a:link, a:visited, a:hover {
+    color: #f99733;
+    cursor: pointer;
+    text-decoration: none;
+}
+a img {
+    border: 0 !important;
+    background-color: transparent !important;
+}
+
+.clearfix:after, ul.tabs:after {
+    content: ".";
+    display: block;
+    height: 0;
+    clear: both;
+    visibility: hidden;
+}
+
+.imgtxt {
+    text-indent: -9999px;
+}
+
+.clearfix, ul.tabs { display: inline-block }
+/* Hide from IE Mac \*/
+.clearfix,ul.tabs { display: block; }
+/* End hide from IE Mac */
+
+ul { list-style: none }
+
+ul.tabs li {
+    float: left;
+}
+
+ul.tabs li.f1rst { border-left: 0 !important; }
+
+/* GLOBAL */
+body {
+    font-family: Helvetica, Arial, sans-serif;
+    color: #ffffff;
+    font-size: 13px;
+    background: #160f05 url(images/BG.jpg) repeat-x fixed center top;
+}
+
+#header-container {
+    background: transparent url(images/subFront.png) no-repeat center 69px;
+    height: 444px;
+}
+
+#header-container.press {
+    background: transparent url(images/subPress-trans.png) no-repeat center 69px;
+    height: 384px;
+}
+
+#header-container.the-jalen-rose-charitable-fund {
+    background: transparent url(images/subFoundation-trans.png) no-repeat center 69px;
+    height: 384px;
+}
+
+#header-container.jalen-rose-leadership-academy {
+    background: transparent url(images/subFoundation-trans.png) no-repeat center 69px;
+    height: 384px;
+}
+
+#header-container.about {
+    background: transparent url(images/subAbout-trans.png) no-repeat center 69px;
+    height: 384px;
+}
+
+#header-container.jalen-now {
+    background: transparent url(images/subNow-trans.png) no-repeat center 69px;
+        height: 384px;
+}
+
+#header, #subHeader, #page {
+    width: 980px;
+    margin: 0 auto;
+    position: relative;
+}
+
+#header {
+        height: 60px;
+}
+
+#header #logo {
+        position: absolute;
+        top: 8px;
+        left: 10px;
+}
+
+#header .tagline {
+        position: absolute;
+        top: 53px;
+        left: 0px;
+}
+
+#header #newsletter-signup {
+    position: absolute;
+    right: 5px;
+    top: 15px;
+}
+
+#header #newsletter-signup .fanClub {
+        display: block;
+}
+
+#header #newsletter-signup .email {
+        font-size:12px;
+        margin: 0 2px 0 15px;
+        width:200px;
+        height: 15px;
+        position: relative;
+        top: -6px;
+}
+
+#subHeader ul.navigation {
+        position: absolute;
+        left: 210px;
+        top: 34px;
+        width: 740px;
+        height: 27px;
+}
+
+#subHeader ul.navigation li a {
+        background: transparent url(images/navBar-new2.png) no-repeat left top;
+        display: block;
+        height: 27px;
+        width: 73px;
+}
+
+#subHeader ul.navigation li a:hover, #subHeader ul.navigation li.active a {
+        background-position: left bottom;
+}
+
+#subHeader ul.navigation li.about a {
+        background-position: -73px top;
+        width: 114px;
+}
+
+#subHeader ul.navigation li.about a:hover, #subHeader ul.navigation li.active.about a {
+        background-position: -73px bottom;
+}
+
+#subHeader ul.navigation li.the-jalen-rose-charitable-fund a {
+        background-position: -186px top;
+        width: 164px;
+}
+
+#subHeader ul.navigation li.the-jalen-rose-charitable-fund a:hover, #subHeader ul.navigation li.the-jalen-rose-charitable-fund.active a {
+        background-position: -186px bottom;
+}
+
+#subHeader ul.navigation li.jalen-rose-leadership-academy a {
+        background-position: -350px top;
+        width: 70px;
+}
+
+#subHeader ul.navigation li.jalen-rose-leadership-academy a:hover, #subHeader ul.navigation li.jalen-rose-leadership-academy.active a {
+        background-position: -350px bottom;
+}
+
+
+#subHeader ul.navigation li.press a {
+        background-position: -420px top;
+        width: 83px;
+}
+
+#subHeader ul.navigation li.press a:hover, #subHeader ul.navigation li.press.active a {
+        background-position: -420px bottom;
+}
+
+#subHeader ul.navigation li.jalen-now a {
+        background-position: -503px top;
+        width: 128px;
+}
+
+#subHeader ul.navigation li.jalen-now a:hover, #subHeader ul.navigation li.jalen-now.active a {
+        background-position: -503px bottom;
+}
+
+#subHeader ul.navigation li.store a {
+        background-position: -631px top;
+        width: 88px;
+}
+
+#subHeader ul.navigation li.store a:hover, #subHeader ul.navigation li.store.active a {
+        background-position: -631px bottom;
+}
+
+#subHeader ul.social {
+        background: transparent url(images/otherSites-trans.png) no-repeat right top;
+        padding-top: 70px;
+        position: absolute;
+        right: -20px;
+        top: 170px;
+        width: 237px;
+        padding-right: 30px;
+}
+
+#header-container.about #subHeader ul.social, #header-container.the-jalen-rose-charitable-fund #subHeader ul.social, #header-container.jalen-rose-leadership-academy #subHeader ul.social, #header-container.press #subHeader ul.social, #header-container.jalen-now #subHeader ul.social{
+        background: transparent url(images/otherSites-trans.png) no-repeat right top;
+        padding-top: 70px;
+        position: absolute;
+        right: -20px;
+        top: 110px;
+        width: 237px;
+        padding-right: 30px;
+}
+
+#subHeader ul.social a {
+        display: block;
+        height: 35px;
+        width: 35px;
+        margin-right: 5px;
+}
+
+#subHeader ul.social li {
+        float: right;
+}
+
+#subHeader ul.social a:hover {
+        background-position: left -35px;
+}
+
+#subHeader ul.social .facebook {
+        background: transparent url(images/facebookButt-trans.png) no-repeat left top;
+}
+
+#subHeader ul.social .twitter {
+        background: transparent url(images/twitterButt-trans.png) no-repeat left top;
+}
+
+#subHeader ul.social .youtube {
+        background: transparent url(images/youtubeButt-trans.png) no-repeat left top;
+}
+
+#subHeader ul.social .ustream {
+        background: transparent url(images/ustreamButt-trans.png) no-repeat left top;
+}
+
+/* LEFT */
+
+#left {
+    width: 200px;
+    float: left;
+        position: relative;
+        bottom: 74px;
+}
+
+#left #twitter a {
+        background: transparent url(images/twitter-trans.png) no-repeat left top;
+        display: block;
+        height: 101px;
+        width: 228px;
+        margin-bottom: 0px;
+        position: relative;
+        right: 28px;
+}
+
+#left .box_twitter {
+    position: relative;
+    margin-bottom: 10px;
+    background: transparent url(images/boxBG-trans.png) no-repeat left top;
+    border-right: 1px solid #402700;
+    border-bottom: 1px solid #402700;
+    border-left: 1px solid #402700;
+}
+
+#left .box_twitter {
+	padding:5px 10px 10px 10px;
+}
+#left .box_twitter li {
+	padding:5px 0px;
+	font-size:11px;
+	line-height:14px;
+}
+
+#left .box_twitter h3 {
+	color: #f99733;
+	font-size: 12px;
+	margin:5px 0px;
+}
+
+#left #facebook {
+        background: transparent url(images/boxBG-trans.png) no-repeat left top;
+        height: 570px;
+                margin-bottom: 40px;
+}
+
+#left #facebook .seo-friendly {
+        font-size: 9px;
+        font-family: "lucida grande",tahoma,verdana,arial,sans-serif;
+        margin-left: 10px;
+}
+
+#left #youtube a {
+        background: transparent url(images/youtubeBox-trans.png) no-repeat left top;
+        display: block;
+        height: 101px;
+        width: 217px;
+        margin-bottom: 10px;
+        position: relative;
+        right: 17px;
+}
+
+/* CONTENT */
+
+#content {
+    float: left;
+    width: 554px;
+    padding: 0 10px;
+    margin-top: -20px;
+}
+
+#content.no-sidebar {
+    width: 754px;
+}
+
+#content.no-sidebar #right {
+
+}
+
+#content .post {
+        padding: 6px 10px 20px;
+        background: transparent url(images/postBG-trans.png) no-repeat left top;
+}
+
+#content .post h2 a {
+        color: #ffffff;
+        font-family: Georgia,'Times New Roman',Times,serif;
+        font-size: 22px;
+        font-weight: bold;
+        letter-spacing: -0.7px;
+}
+
+#content .post h1 {
+        color: #ffffff;
+        font-family: Georgia,'Times New Roman',Times,serif;
+        font-size: 28px;
+        font-weight: bold;
+        letter-spacing: -0.7px;
+}
+
+#content .post h2 a span {
+        color: #ff0000;
+}
+
+
+#content .post h1 span {
+        color: #ff0000;
+}
+
+#content .post h4 {
+        color: #F99733;
+        text-transform: uppercase;
+        letter-spacing: 4px;
+        font-weight: normal;
+        font-size: 11px;
+                margin-top: 10px;
+}
+
+#content .post .social li a {
+        height: 25px;
+        width: 137px;
+        background: transparent url(images/socialPost-trans.png) no-repeat left top;
+        display: block;
+        margin-right: 5px;
+        padding: 17px 0 0 36px;
+        text-align: center;
+        text-transform: uppercase;
+        font-size: 11px;
+}
+
+#content .post p {
+        letter-spacing: -0.1px;
+        padding: 5px 0;
+        color: #FFFFFF;
+}
+
+#content .post img {
+    margin: 0 10px 10px 0;
+}
+
+#content .alignleft {
+        float: left;
+        padding-right: 10px;
+}
+
+#content .aligncenter {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        padding-bottom: 10px;
+}
+
+#content .alignright {
+        float: right;
+        padding-left: 10px;
+}
+
+#content .post #respond {
+        float: left;
+        padding: 10px 5px;
+        margin-top: 20px;
+        border-top: 1px dotted #F99733;
+        width: 100%;
+}
+
+#content .post #respond h3 {
+        color: #ffffff;
+}
+
+#content .post p #comment {
+        width: 450px;
+}
+
+#content .post #comments, .commentlist {
+        float: left;
+}
+
+#content .post #comments {
+        padding: 10px 5px;
+        margin-top: 20px;
+        border-top: 1px dotted #F99733;
+        width: 100%;
+        color: #ffffff;
+}
+
+#content .post .comments {
+        clear: both;
+        padding-top: 10px;
+}
+
+#content .post .comments a {
+        text-transform: uppercase;
+        font-weight: bold;
+        font-size: 12px;
+}
+
+ol.commentlist {
+        list-style-type: none;
+}
+
+#content .post .commentlist .comment-body {
+        padding-bottom: 10px;
+}
+
+#content .post .commentlist .vcard {
+        font-size: 16px;
+}
+
+#content .post .commentlist .vcard img {
+        position: relative;
+        top: 17px;
+}
+
+#content .post .commentlist .commentmetadata {
+        font-size: 9px;
+        letter-spacing: 2px;
+        padding: 3px 0 0 37px;
+        text-transform: uppercase;
+}
+
+#content .post .commentlist .comment-body p {
+        font-style: italic;
+        padding-left: 42px;
+        padding-right: 10px;
+}
+
+#content .post .social li a {
+        font-weight: bold;
+}
+
+#content .post .social .facebookPost a {
+        color: #ff0000;
+}
+
+#content .post .social .facebookPost a:hover {
+        background-position: 0 -42px;
+}
+
+#content .post .social .twitterPost a {
+        color: #ff6c00;
+        background-position: -173px 0;
+}
+
+#content .post .social .twitterPost a:hover {
+        background-position: -173px -42px;
+}
+
+#content .post .social .emailPost a {
+        color: #ffa200;
+        background-position: -346px 0;
+}
+
+#content .post .social .emailPost a:hover {
+        background-position: -346px -42px;
+}
+
+#content .navigation {
+    padding: 10px 15px 20px;
+        margin-top: 20px;
+        border-top: 1px dotted #F99733;
+    font-weight: bold;
+        text-transform: uppercase;
+}
+
+#content .navigation .alignleft {
+    float: left;
+}
+
+#content .navigation .alignright {
+    float: right;
+}
+
+/* RIGHT */
+
+#right {
+    width: 200px;
+    float: right;
+    position: relative;
+    bottom: 74px;
+}
+
+#right #ustream a {
+        background: transparent url(images/ustream-trans.png) no-repeat left top;
+        display: block;
+        height: 170px;
+        width: 213px;
+        margin-bottom: 10px;
+}
+
+#right .box {
+    position: relative;
+    margin-bottom: 10px;
+    background: transparent url(images/boxBG-trans.png) no-repeat left top;
+    border: 1px solid #402700;
+}
+
+#right #bwb a.promo {
+    background: transparent url(images/bwbLogo-trans.png) no-repeat 35px 10px;
+    display: block;
+    height: 150px;
+    width: 200px;
+    padding: 10px 0px;
+}
+
+#right #bwb p {
+    color: white;
+    text-align: center;
+    font-size: 13px;
+    line-height: 15px;
+    position: absolute;
+    top: 95px;
+    left: 5px;
+    right: 5px;
+    border-bottom: 1px solid #402700;
+    margin: 0 5px;
+    padding-bottom: 15px;
+}
+
+#right a { color: white; }
+
+#right a.more {
+    display: block;
+    color: #f99733;
+    margin-top: 8px;
+}
+
+#right .box {
+    font-size: 11px;
+    padding: 20px 15px;
+}
+
+#right .box h4 {
+    font-weight: bold;
+    margin: 10px 0;
+    padding-bottom: 10px;
+    font-size: 11px;
+    border-bottom: 1px dotted #402700;
+}
+
+#right .box h4.last {
+   border-bottom: 0;
+}
+
+#right #quotes h4 {
+    text-align: right;
+}
+
+#right .box blockquote {
+    font-style: italic;
+    text-align: left;
+}
+
+#right .box h3 {
+        color: #f99733;
+        font-size: 12px;
+}
+
+#right #iMeem {
+        position: relative;
+        width: 200px;
+        background: transparent url(images/boxBG-trans.png) no-repeat left top;
+        height: 340px;
+        display: none;
+}
+
+#right #iMeem .iMeemBorder {
+        position: absolute;
+        width: 198px;
+        height: 338px;
+        border: 1px solid #402700;
+        top: 0;
+        left: 0;
+}
+
+/* FOOTER */
+
+#footer {
+        float: left;
+        width: 100%;
+}
+
+#footer .archive {
+        background: transparent url(images/boxBG-trans.png) no-repeat left top;
+        padding: 5px 10px 0;
+        border: 1px solid #402700 !important;
+        height: 22px;
+        position: relative;
+}
+
+#footer .archive h3 {
+        display: block;
+        float: left;
+        font-size: 14px;
+}
+
+#footer .archive h3 strong {
+        color: #f6791f;
+}
+
+#footer .archive ul {
+        padding: 4px 0 0;
+        font-size: 10px;
+        letter-spacing: 1px;
+        text-transform: uppercase;
+        width: 720px;
+}
+
+#footer .archive ul.tabs li {
+        margin-right: 3px;
+        border-right: 1px solid #808080;
+        height: 10px;
+        padding: 0 10px;
+        color: #F99733;
+}
+
+#footer .archive ul.tabs li.last {
+        border-width: 0;
+}
+
+#footer ul.subfooter {
+        color: #aaaaaa;
+        font-size: 9px;
+        font-weight: bold;
+        text-transform: uppercase;
+        margin: 0 auto;
+        width: 172px;
+}
+
+#footer ul.subfooter li {
+        border-right: 1px solid #808080;
+        height: 7px;
+        padding: 0 15px;
+}
+
+#footer ul.subfooter li.last {
+        border-width: 0;
+}
+
+#footer #logo img {
+        width: 275px;
+        position: absolute;
+        top: -9px;
+        right: 3px;
+}
+
+#footer .finePrint {
+        text-align: center;
+        margin: 20px 0 10px;
+}
+
+#footer .finePrint p {
+        color: #808080;
+        font-size: 11px;
+        font-weight: normal;
+        margin-bottom: 4px;
+        padding-right: 5px;
+}
+
+
+/*
+  Pagge specific
+*/
+
+#page #content h1 {
+        background: transparent url(images/postBG-trans.png) no-repeat scroll left top;
+        padding: 6px 10px 5px;
+        color: #FFFFFF;
+        font-family: Georgia,'Times New Roman',Times,serif;
+        font-size: 28px;
+        font-weight: bold;
+        letter-spacing: -0.7px;
+}
+
+#page #content .post h1 {
+        background: none;
+        padding: 0;
+        color: #FFFFFF;
+        font-family: Georgia,'Times New Roman',Times,serif;
+        font-size: 28px;
+        font-weight: bold;
+        letter-spacing: -0.7px;
+}
+
+#page #content .pageCopy {
+        padding: 0 10px;
+        color: #ffffff;
+}
+
+body.page #content p {
+    padding: 5px 0;
+}
+
+#page.the-jalen-rose-charitable-fund .definition {
+        padding: 15px;
+        margin: 5px 20px 10px;
+        background: transparent url(images/boxBG-trans.png) no-repeat scroll left top;
+        border: 1px solid #402700;
+}
+
+#page.the-jalen-rose-charitable-fund .definition p {
+        font-size: 20px;
+}
+
+#page.the-jalen-rose-charitable-fund .definition span {
+        font-style: italic;
+}
+
+#page.the-jalen-rose-charitable-fund ol {
+        list-style-position: outside;
+        padding: 3px 0 0 30px;
+        font-size: 14px;
+}
+
+#page.the-jalen-rose-charitable-fund ol li {
+        padding-bottom: 5px;
+}
+
+#page.the-jalen-rose-charitable-fund .pageSection {
+        padding: 0 5px 10px;
+}
+
+#page.the-jalen-rose-charitable-fund .borderTop {
+        border-top: 1px dotted #F99733;
+}
+
+#page.the-jalen-rose-charitable-fund .pageSection h6 {
+        text-align: center;
+        text-transform: uppercase;
+        font-size: 16px;
+}
+
+#page.the-jalen-rose-charitable-fund .pageSection h3, #content .archive h3 {
+        padding: 15px 0px 20px;
+        font-family: Georgia,'Times New Roman',Times,serif;
+        font-size: 20px;
+        font-weight: bold;
+        letter-spacing: -0.7px;
+}
+
+#page.the-jalen-rose-charitable-fund .pageSection .awards {
+        padding-bottom: 10px;
+}
+
+#page.the-jalen-rose-charitable-fund .pageSection .awards ul {
+        padding-bottom: 10px;
+}
+
+#page.the-jalen-rose-charitable-fund .pageSection .program p {
+        font-size: 12px;
+        padding: 3px 5px 20px;
+}
+
+#page.the-jalen-rose-charitable-fund .pageSection .program li, #content .archive li {
+        font-size: 12px;
+        padding: 3px 5px 0px 0px;
+        list-style-position: outisde;
+        list-style-type: square;
+        margin-left: 20px;
+}
+
+#page.the-jalen-rose-charitable-fund .pageSection .program h4, #content .archive h4{
+    text-transform: uppercase;
+    font-size: 14px;
+}
+
+#page.the-jalen-rose-charitable-fund .pageSection .program h4 {
+margin: 10px 0 5px;
+}
+
+#page.the-jalen-rose-charitable-fund .elaborate {
+        padding: 10px 0 0 0;
+        border-top: 1px solid #402700;
+        margin-bottom: 15px;
+}
+
+#page.the-jalen-rose-charitable-fund .elaSection {
+        padding: 0 10px 10px;
+        margin-bottom: 10px;
+}
+
+#page.the-jalen-rose-charitable-fund .elaSection h5 {
+        text-transform: uppercase;
+        font-size: 14px;
+}
+
+#page.the-jalen-rose-charitable-fund .elaSection p {
+        padding: 0 0 0 5px;
+        font-size: 12px;
+}
+
+#page.the-jalen-rose-charitable-fund .elaSection span {
+        font-weight: bold;
+        display: block;
+        padding: 5px 0 15px 50px;
+}
+
+#page.the-jalen-rose-charitable-fund .elaSection h6 {
+        text-align: center;
+        text-transform: uppercase;
+        font-size: 11px;
+        padding-top: 5px;
+}
+
+#page.jalen-now table {
+        text-align: left; vertical-align: top; font-size: 10px;
+        border-collapse: collapse;
+}
+#page.jalen-now table tr { }
+#page.jalen-now table th { font-weight: bold }
+#page.jalen-now table th, #page.jalen-now table td {
+        border: 1px solid #402700;
+        padding: 5px;
+        vertical-align: top;
+}
+
+#header-container.jalens-fan-club #subHeader ul.social {
+  top: 170px;
+}
+
+#fan-club-form table th, #fan-club-form table td {
+        padding: 5px 0 5px 10px;
+        vertical-align: top;
+}

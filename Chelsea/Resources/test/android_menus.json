@@ -1,0 +1,73 @@
+/*
+ * JSON File
+ * 
+ * This comment may need to be removed for proper parsing
+ */
+
+var backgroundColor = '#000000';
+var fontColor = '#0f0';
+var fontSize = 20;
+var fontFamily = 'Helvetica Neue';
+var barColor = '#000';
+var titleImage = '/assets/images/navbar.png';
+var titleImage1 = '/assets/images/navbar.png';
+var loadingBackground = '#555555';
+var celebrity = 'chelseahandler'; 
+var constants = [
+{title:'Twitter', label:'Twitter', tabIcon:'/assets/icons/twitter.png', url:'/main_windows/twitter.js', type:'0', dataSource:''},
+{title:'Facebook', label:'Facebook', tabIcon:'/assets/icons/facebook.png', url:'/main_windows/facebook_wall.js', type:'0', dataSource:''},
+{title:'Videos', label:'Videos', tabIcon:'/assets/icons/featured.png', url:'/main_windows/youtube.js', type:'0', dataSource:''},
+{title:'Photos', label:'Photos', tabIcon:'/assets/icons/film-roll.png', url:'/main_windows/thumbview.js', type:'0', dataSource:''},
+{title:'More', label:'More', tabIcon:'/assets/icons/more.png', url:'/main_windows/more.js', type:'0', dataSource:''}
+];
+var scrollView = [
+{title:'twitter', backgroundColor:'#336699',borderRadius:'5',borderWidth:'1',borderColor:'#336699',width:'40',height:'40',left:'10'},
+{title:'facebook', backgroundColor:'#336699',borderRadius:'5',borderWidth:'1',borderColor:'#336699',width:'40',height:'40',left:'10'},
+{title:'videos', backgroundColor:'#336699',borderRadius:'5',borderWidth:'1',borderColor:'#336699',width:'40',height:'40',left:'10'},
+{title:'photos', backgroundColor:'#336699',borderRadius:'5',borderWidth:'1',borderColor:'#336699',width:'40',height:'40',left:'10'},
+{title:'more', backgroundColor:'#336699',borderRadius:'5',borderWidth:'1',borderColor:'#336699',width:'40',height:'40',left:'10'}
+];
+var scrollImage = [
+{title:'twitter',image:'/assets/icons/twitter.png',width:'24',height:'24',url:'/main_windows/twitter.js'},
+{title:'facebook',image:'/assets/icons/facebook.png',width:'24',height:'24',url:'/main_windows/facebook_wall.js'},
+{title:'videos',image:'/assets/icons/featured.png',width:'24',height:'24',url:'/main_windows/youtube.js'},
+{title:'photos',image:'/assets/icons/film-roll.png',width:'24',height:'24',url:'/main_windows/thumbview.js'},
+{title:'more',image:'/assets/icons/more.png',width:'24',height:'24',url:'/main_windows/more.js'}
+];
+var scrollLabel = [	
+{title:'twitter',text:'Twitter',font:'{fontSize:13}',color:'#fff',width:'auto',textAlign:'center',height:'auto'},
+{title:'facebook',text:'Facebook',font:'{fontSize:13}',color:'#fff',width:'auto',textAlign:'center',height:'auto'},
+{title:'videos',text:'Videos',font:'{fontSize:13}',color:'#fff',width:'auto',textAlign:'center',height:'auto'},
+{title:'photos',text:'Photos',font:'{fontSize:13}',color:'#fff',width:'auto',textAlign:'center',height:'auto'},
+{title:'more',text:'More',font:'{fontSize:13}',color:'#fff',width:'auto',textAlign:'center',height:'auto'}
+];
+var moredata = [
+{title:'Clothes', label:'Clothes', hasDetail:true, color:'white', leftImage:'/assets/icons/shoppingcart.png', url:'/main_windows/website.js', type:'0', dataSource:'http://chelseahandler.com/merch.html'},
+{title:'Books', label:'Books', hasDetail:true, color:'white', leftImage:'/assets/icons/shoppingcart.png', url:'/main_windows/website.js', type:'0', dataSource:'http://www.amazon.com/gp/aw/s/ref=is_pp_2?k=Chelsea%20Handler'},
+{title:'ChelseaHandler.com', label:'ChelseaHandler.com', hasDetail:true, color:'white', leftImage:'/assets/icons/69-display.png', url:'/main_windows/website.js', type:'0', dataSource:'http://www.chelseahandler.com'},
+{title:'Borderline Amazing', label:'Borderline Amazing', hasDetail:true, color:'white', leftImage:'/assets/icons/69-display.png', url:'/main_windows/website.js', type:'0', dataSource:'http://www.borderlineamazingcomedy.com/'},
+{title:'Tickets', label:'Tickets', hasDetail:true, color:'white', leftImage:'/assets/icons/69-display.png', url:'/main_windows/website.js', type:'0', dataSource:'http://www.ticketmaster.com/Chelsea-Handler-tickets/artist/1048344'}
+];
+var win = Titanium.UI.currentWindow;
+//var tabgroup = Titanium.UI.currentTabGroup;
+var tableColor1 = '#111';
+var tableColor2 = '#000';
+var facebookURL = "http://graph.facebook.com/45475996942/feed"; 
+var tableTextColor = '#ffffff';
+var tableSeparatorColor = '#ffffff';
+var twitter_name = 'chelseahandler';
+var featuredURL = 'http://svs-servers.com/ca/code/chelseahandler/featured.php';
+var videoURL = 'http://svs-servers.com/ca/code/getContent3.php?id=valleygirl&type=9';
+var pictureURL = 'http://svs-servers.com/ca/code/chelseahandler/photos.php';
+var imdbURL = 'http://www.imdb.com/name/nm2526306/';
+var webURL = 'http://www.valleygirl.tv/';
+var blogURL = 'http://svs-servers.com/ca/code/valleygirl/valleygirlblogs.php';
+var adrinaDefaultVideoImage = 'http://svs-servers.com/ca/code/weelicious/weeliciousVideo.png';
+var searchbackground = '/assets/images/searchbackground.png';
+var searchbutton = '/assets/images/searchbutton.png';
+var searchURL = 'http://valleygirl.tv/?json=1&s=';
+var youtubesearch = 'Valley+Girl+Jesse+Draper';
+var youtubeSearchUrl = 'http://www.youtube.com/rss/user/chelsealately/videos.rss';
+var fbpostname = "From the Chelsea Handler Facebook Wall";
+var fbpostlink = "http://www.facebook.com/chelseahandler";
+var fbposticon = "http://svs-servers.com/ca/code/chelseahandler/icon.png";
